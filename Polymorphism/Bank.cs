@@ -17,14 +17,14 @@ namespace Polymorphism
         }
 
 
-        private decimal alisVerisTutari = 0;
+        private decimal alisVerisTutari=0;
         public decimal _alisverisTutari { get; set; }
 
         public void BilgileriAl()
         {
             Console.WriteLine(bankaAdi+"bankasına hoş geldiniz.");
             Console.WriteLine("Alışveriş tutarı giriniz: ");
-
+            
             _alisverisTutari = alisVerisTutari;
             if (alisVerisTutari>0)
             {
